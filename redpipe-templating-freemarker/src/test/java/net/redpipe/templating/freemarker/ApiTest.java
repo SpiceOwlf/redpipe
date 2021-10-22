@@ -179,23 +179,23 @@ public class ApiTest {
 		.as(BodyCodec.string())
 		.rxSend()
 		.map(r -> {
-                    context.assertEquals(200, r.statusCode());
-                    context.assertTrue(
-                        r.body().equals(
-                            "<html>\n" +
-                            " <head>\n" +
-                            "  <title>my title</title>\n" +
-                            " </head>\n" +
-                            " <body>my message</body>\n" +
-                            "</html>") ||
-                        r.body().equals(
-                            "## my title ##\n" +
-                            "\n"+
-                            "my message"));
-                    context.assertTrue(
-                        r.getHeader("Content-Type").equals("text/html") ||
-                        r.getHeader("Content-Type").equals("text/plain")
-                        );
+                      context.assertEquals(200, r.statusCode());
+                      context.assertTrue(
+                          r.body().equals(
+                              "<html>\n" +
+                              " <head>\n" +
+                              "  <title>my title</title>\n" +
+                              " </head>\n" +
+                              " <body>my message</body>\n" +
+                              "</html>") ||
+                          r.body().equals(
+                              "## my title ##\n" +
+                              "\n"+
+                              "my message"));
+                      context.assertTrue(
+                          r.getHeader("Content-Type").equals("text/html") ||
+                          r.getHeader("Content-Type").equals("text/plain")
+                          );
 			return r;
 		})
 		.doOnError(x -> context.fail(x))
