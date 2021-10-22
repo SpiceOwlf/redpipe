@@ -1,0 +1,35 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------< [0;36mnet.redpipe:redpipe-templating-freemarker[0;1m >--------------[m
+[[1;34mINFO[m] [1mBuilding redpipe-templating-freemarker 0.0.5-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mnondex-maven-plugin:1.1.2:debug[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mredpipe-templating-freemarker[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mredpipe-templating-freemarker[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:compile[m [1m(default-compile)[m @ [36mredpipe-templating-freemarker[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mredpipe-templating-freemarker[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 8 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.1:testCompile[m [1m(default-testCompile)[m @ [36mredpipe-templating-freemarker[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mnondex-maven-plugin:1.1.2:debug[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mredpipe-templating-freemarker[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mnondex-maven-plugin:1.1.2:debug[m [1m(default-cli)[m @ [36mredpipe-templating-freemarker[0;1m ---[m
+SEVERE: Could not open run file to parse executions
+java.io.FileNotFoundException: /home/xuhengd2/redpipe/redpipe-templating-freemarker/.nondex/LATEST (No such file or directory)
+[[1;33mWARNING[m] *********
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.502 s
+[[1;34mINFO[m] Finished at: 2021-10-21T21:27:21-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
